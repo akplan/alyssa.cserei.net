@@ -18,6 +18,12 @@ body {
 a {
     color: var(--text);
 }
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
 
 .highlight {
     font-weight: bold;
@@ -28,7 +34,8 @@ a {
 
 .tagline {
     font-size: 72px;
-    padding: 4rem;
+    padding: 6rem;
+    align-items: center;
 }
 
 header{

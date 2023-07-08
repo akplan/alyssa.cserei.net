@@ -9,6 +9,11 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: 'Fantasque Sans Mono';
+    src: url(fonts/FantasqueSansMono-Regular.ttf) format('truetype');
+}
+
 body {
     font-family: 'Fantasque Sans Mono', 'Consolas', Courier, monospace;
     color: var(--text);

@@ -1,0 +1,12 @@
+---
+const webLinks = [
+    {url: 'mailto:alyssa@cserei.net', text: 'email'},
+    {url: '/files/Alyssa-Cserei-Resume-December2023.pdf', text: 'resume'},
+    {url: 'https://github.com/akplan', text: 'github'},
+    {url: 'https://www.linkedin.com/in/apcserei/', text: 'linkedin'}
+]
+---
+
+<div class="lg:flex-grow lg:justify-end lg:flex">
+    {webLinks.map(item => (<a href={item.url} class="block mt-4 lg:inline-block lg:mt-0 mx-12">{item.text}</a>))}
+</div>

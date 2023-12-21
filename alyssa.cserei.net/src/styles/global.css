@@ -38,22 +38,9 @@ main {
 }
 
 .tagline {
-    font-size: 72px;
+    font-size: 36px;
     padding: 6rem;
     align-items: center;
-}
-
-header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 2rem 1rem;
-
-}
-header li{
-    list-style: none;
-    display: inline-block;
-    padding: 0 2rem;
 }
 
 #logo{
@@ -63,32 +50,3 @@ header li{
     background-color: var(--accent-color);
     padding: 0.25rem;
 }
-.links{
-    display: flex;
-    list-style: none;
-}
-
-.links a{
-    text-decoration: none;
-    transition: all 0.2s ease 0s;
-}
-.links a:hover{
-    color: var(--accent-color);
-    background-color: var(--text);
-}
-
-@media (max-width: 800px) {
-    header {
-      flex-direction: column;
-    }
-    .links {
-        flex-direction: column;
-    }
-    .links li{
-        font-size: 2rem;
-        padding: 1rem;
-    }
-    .tagline{
-        font-size: 3rem;
-    }
-  }
